@@ -23,7 +23,7 @@
 import urllib.request, json, time, serial
 
 # Global variables.
-restURL = "https://absolute-gantry-followers.appspot.com/" # Insert the url of your server where you deployed with your spring boot. Local host for testing.
+restURL = "http://localhost:8080/" # Insert the url of your server where you deployed with your spring boot. Local host for testing.
 arduinoSerial = serial.Serial('/dev/ttyACM0', 9600) # Arduino serial port. This works for linux.
 
 ##
